@@ -5,13 +5,13 @@ Two ground sesors to detect incomming and outgoing car from the parking space. R
 ## Concept outline<br/>
 ## Assumptions:<br/>
 - The distance between two sensors is 50mm.<br/>
-## comutiy
 - By default, there are 10 parking space.<br/>
 - Only one state machine is used.<br/>
 - When the vehicle crosses both sensors then, count is increased if the vehicle is entering.<br/>
 <br/> 
 ## Communication:<br/>
 - Communication is done by parsing each character.<br/>
+## comuty
 - Reset: when the state is at reset, count = 0, average = 0 and max = 10.<br/>
 - Direction: dir variable is used to give direction. When dir is 0 then vehicle enters parking 
   space when first S2 is pressed. When dir is 1 then to enter the parking space S1 is to be 
