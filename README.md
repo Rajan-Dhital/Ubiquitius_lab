@@ -5,6 +5,7 @@ Two ground sesors to detect incomming and outgoing car from the parking space. R
 ## Concept outline<br/>
 ## Assumptions:<br/>
 - The distance between two sensors is 50mm.<br/>
+## comutiy
 - By default, there are 10 parking space.<br/>
 - Only one state machine is used.<br/>
 - When the vehicle crosses both sensors then, count is increased if the vehicle is entering.<br/>
