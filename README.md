@@ -3,7 +3,7 @@
 Two ground sesors to detect incomming and outgoing car from the parking space. Red singal when there is not a parking space available and green light for availability of the parking space.\
 \
 Concept outline\
-## Assumptions: \
+## Assumptions: /
 - The distance between two sensors is 50mm.\
 - By default, there are 10 parking space.\
 - Only one state machine is used.\
