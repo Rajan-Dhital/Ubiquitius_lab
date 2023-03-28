@@ -8,10 +8,8 @@ Two ground sesors to detect incomming and outgoing car from the parking space. R
 - By default, there are 10 parking space.<br/>
 - Only one state machine is used.<br/>
 - When the vehicle crosses both sensors then, count is increased if the vehicle is entering.<br/>
-<br/> 
 ## Communication:<br/>
 - Communication is done by parsing each character.<br/>
-## comuty
 - Reset: when the state is at reset, count = 0, average = 0 and max = 10.<br/>
 - Direction: dir variable is used to give direction. When dir is 0 then vehicle enters parking 
   space when first S2 is pressed. When dir is 1 then to enter the parking space S1 is to be 
@@ -29,7 +27,6 @@ Two ground sesors to detect incomming and outgoing car from the parking space. R
 - When the system is waked up then the hour alarm is changed to 20:00’ O clock again. At 
   the waked state if none of the interrupt is working then the system goes to LMP4 sleep 
   mode.<br/>
-<br/>
 ## Counting and speed measurement:<br/>
 - If the direction is 0 and first S2 button and then S1 button are pressed twice, then count value is 
   increased. Count is increased when the vehicle crosses both sensors. If one vehicle enters the 
