@@ -8,7 +8,7 @@ Two ground sesors to detect incomming and outgoing car from the parking space. R
 - By default, there are 10 parking space.<br/>
 - Only one state machine is used.<br/>
 - When the vehicle crosses both sensors then, count is increased if the vehicle is entering.<br/>
-<br/>
+<br/> 
 ## Communication:<br/>
 Communication is done by parsing each character.<br/>
 - Reset: when the state is at reset, count = 0, average = 0 and max = 10.<br/>
